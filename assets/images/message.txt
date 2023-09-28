@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    /* font size */
+    --small1: 11px;
+    --small2: 12px;
+    --small3: 14px;
+    --small4: 15px;
+    --small5: 16px;
+    --small6: 17px;
+    --small7: 18px;
+    --small8: 19px;
+    --small9: 20px;
+    --medium1: 21px;
+    --medium2: 25px;
+    --medium3: 26px;
+    --medium4: 28px;
+    --medium5: 32px;
+    --medium6: 35px;
+    --medium7: 36px;
+    --medium8: 37px;
+    --medium9: 38px;
+    --large1: 39px;
+    --large2: 40px;
+    --large3: 42px;
+    --large4: 68px;
+    --large5: 70px;
+    --large6: 94px;
+    --large7: 101px;
+    --large8: 106px;
+    --large9: 110px;
+
+    /* color */
+    --grey1: #848895;
+    --grey2: #C4C4C4;
+    --grey3: #BABABA;
+    --grey4: #E6E6E6;
+    --blue: #618ADC;
+    --green1: #19FB9B;
+    --green2: #14F195;
+    --purple1: #A962FF;
+    --purple2: #9945FF;
+    --black1: #111;
+    --black2: #19161C;
+    --black3: #0A0A0A;
+    --pink: #F087FF;
+    --yellow: #FFEB3B;
+}
+
+/* font size */
+.small1 {
+    font-size: var(--small1);
+}
+
+.small2 {
+    font-size: var(--small2);
+}
+
+.small3 {
+    font-size: var(--small3);
+}
+
+.small4 {
+    font-size: var(--small4);
+}
+
+.small5 {
+    font-size: var(--small5);
+}
+
+.small6 {
+    font-size: var(--small6);
+}
+
+.small7 {
+    font-size: var(--small7);
+}
+
+.small8 {
+    font-size: var(--small8);
+}
+
+.small9 {
+    font-size: var(--small9);
+}
+
+.medium1 {
+    font-size: var(--medium1);
+}
+
+.medium2 {
+    font-size: var(--medium2);
+}
+
+.medium3 {
+    font-size: var(--medium3);
+}
+
+.medium4 {
+    font-size: var(--medium4);
+}
+
+.medium5 {
+    font-size: var(--medium5);
+}
+
+.medium6 {
+    font-size: var(--medium6);
+}
+
+.medium7 {
+    font-size: var(--medium7);
+}
+
+.medium8 {
+    font-size: var(--medium8);
+}
+
+.medium9 {
+    font-size: var(--medium9);
+}
+
+.large1 {
+    font-size: var(--large1);
+}
+
+.large2 {
+    font-size: var(--large2);
+}
+
+.large3 {
+    font-size: var(--large3);
+}
+
+.large4 {
+    font-size: var(--large4);
+}
+
+.large5 {
+    font-size: var(--large5);
+}
+
+.large6 {
+    font-size: var(--large6);
+}
+
+.large7 {
+    font-size: var(--large7);
+}
+
+.large8 {
+    font-size: var(--large8);
+}
+
+.large9 {
+    font-size: var(--large9);
+}
+
+/* color */
+.grey1 {
+    color: var(--grey1);
+}
+
+.grey2 {
+    color: var(--grey2);
+}
+
+.grey3 {
+    color: var(--grey3);
+}
+
+.grey4 {
+    color: var(--grey4);
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.green1 {
+    color: var(--green1);
+}
+
+.green2 {
+    color: var(--green2);
+}
+
+.purple {
+    color: var(--purple1);
+}
+
+.purple2 {
+    color: var(--purple2);
+}
+
+.black1 {
+    color: var(--black1);
+}
+
+.black2 {
+    color: var(--black2);
+}
+
+.black3 {
+    color: var(--black3);
+}
+
+.pink {
+    color: var(--pink);
+}
+
+.yellow {
+    color: var(--yellow);
+}
+
+/* font-family */
+.roboto {
+    font-family: "Roboto";
+}
+
+.helvetica {
+    font-family: "Helvetica";
+}
