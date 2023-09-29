@@ -18,14 +18,12 @@ $('.slick-slider').slick({
         }
     ]
 });
-  <script>
-        AOS.init({
+    AOS.init({
     duration: 1000, // values from 0 to 3000, with step 50ms
     easing: 'ease', // default easing for AOS animations
     once: true,
 }
 );
-    </script>
 
 let a = document.getElementById("nav");
 let flow = document.querySelector(".flow");
