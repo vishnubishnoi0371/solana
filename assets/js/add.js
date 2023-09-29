@@ -1,4 +1,23 @@
-
+$('.slick-slider').slick({
+    infinite: true,
+    slidesToShow: 4,
+    centerMode: true,
+    variableWidth: true,
+    speed: 4000,
+    autoplay: true,
+    autoplaySpeed: 0,
+    cssEase: 'linear',
+    slidesToScroll: 1,
+    pauseOnHover: true,
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 1,
+            }
+        }
+    ]
+});
 let a = document.getElementById("nav");
 let flow = document.querySelector(".flow");
 let cross4 = document.querySelector(".cross-4");
