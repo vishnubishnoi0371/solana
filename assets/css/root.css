@@ -31,6 +31,7 @@
     --large9: 110px;
 
     /* color */
+    --white1: #fff;
     --grey1: #848895;
     --grey2: #C4C4C4;
     --grey3: #BABABA;
@@ -157,6 +158,9 @@
 }
 
 /* color */
+.white1 {
+    color: var(--white1);
+}
 .grey1 {
     color: var(--grey1);
 }
