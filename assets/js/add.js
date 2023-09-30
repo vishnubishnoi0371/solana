@@ -8,6 +8,21 @@ let Home = document.querySelector(".Home");
 let Build = document.querySelector(".Build");
 let Network = document.querySelector(".Network");
 let Community = document.querySelector(".Community");
+let myBtn = document.querySelector(".myBtn");
+
+window.onscroll = function () { scrollFunction() };
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        myBtn.style.display = "block";
+    } else {
+        myBtn.style.display = "none";
+    }
+}
+
+myBtn.addEventListener("click", function () {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+})
 
 menuicon.addEventListener("click", function () {
     if (a.classList !== document.querySelector("fix-lft")) {
