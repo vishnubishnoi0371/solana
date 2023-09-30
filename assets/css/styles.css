@@ -770,6 +770,10 @@ footer {
     -webkit-text-stroke: .001px;
 }
 
+.fotr-hv:hover svg path {
+    fill: white;
+}
+
 .reddit {
     border-radius: 20px;
 }

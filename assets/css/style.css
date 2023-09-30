@@ -359,6 +359,11 @@ nav ul li a:hover::before {
     -webkit-text-stroke: .5px;
 
 }
+.nav-hv:hover svg path {
+    background: black;
+    fill: #FFF;
+
+}
 
 .label[id="menuIcon"] {
     width: 30px;
@@ -781,16 +786,16 @@ input {
 }
 
 .social-icns {
-
     background: #848895;
-    display: inline-flex;
-    padding: 5px;
-    border-radius: 50%;
+    width: 26px;
+    height: 16px;
+    flex-shrink: 0;
 }
 
 .social-icns:hover {
     background: #fff;
 }
+
 
 
 .app-icon {
