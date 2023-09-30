@@ -42,8 +42,8 @@
                             <span class="cross-5"></span>
                             <span class="cross-6"></span>
                         </label>
-                        <ul class="nav-flip d-flex align-items-center  gap-30  mb-0 pl-0 ml-0 px-0" Id="nav">
-                            <li class="dropdown nav-iten position-relative"><a href="#Learn"
+                        <ul class="nav-flip mb-0 pl-0 ml-0 px-0" Id="nav">
+                            <li class="dropdown nav-item"><a href="#Learn"
                                     class="small6 fw-normal grey1 helvetica text-decoration-none mb-0 nav-hv Home">Learn</a>
                                 <span><svg class="nav-icns" width="24" height="24" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -62,7 +62,7 @@
                                         </a></li>
                                 </ul>
                             </li>
-                            <li class="dropdown nav-iten position-relative"><a href="/index2.html"
+                            <li class="dropdown nav-item"><a href="/index2.html"
                                     class="small6 fw-normal grey1 helvetica text-decoration-none mb-0 nav-hv Build">Build</a>
                                 <svg class="nav-icns" width="24" height="24" viewBox="0 0 24 24" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -79,7 +79,7 @@
                                             href="#">BED</a></li>
                                 </ul>
                             </li>
-                            <li class="dropdown nav-iten position-relative"><a href="#Network"
+                            <li class="dropdown nav-item"><a href="#Network"
                                     class="small6 fw-normal grey1 helvetica text-decoration-none mb-0 nav-hv Network">Network</a>
                                 <svg class="nav-icns" width="24" height="24" viewBox="0 0 24 24" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -154,7 +154,7 @@
     <!-- main -->
     <main>
         <!-- section1 -->
-        <section class="section1bg min-height-1690 d-flex flex-column justify-content-evenly align-items-center">
+        <section class="section1bg min-height-1690 d-flex flex-column justify-content-md-evenly align-items-center">
             <div class="container custom-container2 min-height-653 d-flex flex-column">
                 <div class="d-flex flex-lg-row flex-column flex-wrap">
                     <div id="Network" data-aos="fade-right"
@@ -561,8 +561,8 @@
                         <div class="col-lg-4 col-md-4 col-sm-4 col-6">
                             <ul class="ps-0">
                                 <li><a href=""
-                                        class="small5 fw-normal grey1 helvetica mb-0 text-decoration-none fotr-hv"><svg
-                                            width="19" height="20" viewBox="0 0 19 20" fill="none"
+                                        class="small5 fw-normal grey1 helvetica mb-0 text-decoration-none fotr-hv">
+                                        <svg width="19" height="20" viewBox="0 0 19 20" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <g clip-path="url(#clip0_1479_1606)">
                                                 <path
@@ -584,7 +584,7 @@
                 </div>
             </div>
         </div>
-    </footer>    
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
@@ -597,7 +597,37 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="/assets/js/add.js"></script>   
+    <script src="/assets/js/add.js"></script>
+    <script>
+        $('.slick-slider').slick({
+            infinite: true,
+            slidesToShow: 4,
+            centerMode: true,
+            variableWidth: true,
+            speed: 4000,
+            autoplay: true,
+            autoplaySpeed: 0,
+            cssEase: 'linear',
+            slidesToScroll: 1,
+            pauseOnHover: true,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                }
+            ]
+        });
+    </script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            easing: 'ease', 
+            once: true,
+        }
+        );
+    </script>
 </body>
 
 </html>
