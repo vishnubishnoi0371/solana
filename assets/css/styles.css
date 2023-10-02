@@ -288,6 +288,22 @@
     max-width: 1140px !important;
 }
 
+.myBtn {
+    display: none;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background: linear-gradient(265deg, #00FFBD -5.84%, #025B8C 111.58%);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.myBtn:hover {
+    background: linear-gradient(260deg, #0047FF -13.37%, #00BCD4 109.53%);
+}
+
 /* header */
 
 /* nav */
